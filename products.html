@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="All types of pipes — GI, MS, PVC, HDPE, UPVC, CPVC, Duct, Casing Pipes. Wholesale dealer Manoj Rathour, Sitapur UP."/>
+  <meta name="keywords" content="gi pipe dealer sitapur, ms pipe, pvc pipe supplier, hdpe pipe, upvc cpvc pipe, wholesale pipe UP"/>
+  <title>Products | Manoj Rathour Pipe Traders – Sitapur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .product-specs {
+      margin-top: 14px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px 12px;
+    }
+    .spec-row {
+      font-size: 0.76rem;
+      color: var(--text-light);
+    }
+    .spec-row strong {
+      color: var(--text);
+      display: block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--gray);
+    }
+    .pipe-intro {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      border-left: 5px solid var(--orange);
+      box-shadow: var(--shadow-card);
+      margin-bottom: 48px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .pipe-intro .icon { font-size: 2.5rem; flex-shrink: 0; }
+    .pipe-intro h3 { font-size: 1.2rem; margin-bottom: 6px; }
+    .pipe-intro p { font-size: 0.9rem; margin: 0; }
+    .filter-bar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 36px;
+    }
+    .filter-btn {
+      padding: 8px 20px;
+      border-radius: 4px;
+      border: 2px solid var(--blue);
+      background: transparent;
+      color: var(--blue);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background: var(--blue);
+      color: var(--white);
+    }
+    .products-all-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    @media (max-width: 480px) {
+      .products-all-grid { grid-template-columns: 1fr; }
+      .product-specs { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="container">
+    <div class="top-bar-inner">
+      <span class="top-bar-item"><span class="icon">📍</span> Munshiganj, Sitapur, UP</span>
+      <span class="top-bar-item"><span class="icon">📞</span><a href="tel:9956413300">9956413300</a></span>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-name">🔧 Manoj Rathour</span>
+        <span class="brand-sub">Pipe Traders — Sitapur</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="nav-cta-btn">Get Quote</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">🏭 About Us</a>
+    <a href="products.html" class="active">🔧 Products</a>
+    <a href="contact.html">📞 Contact</a>
+    <a href="contact.html" class="mob-cta">📋 Get Free Quote</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container page-hero-inner">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="sep">›</span>
+      <span class="current">Products</span>
+    </div>
+    <h1>Our Products</h1>
+    <p>All types of pipes — ISI certified, wholesale prices, always in stock</p>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="section-pad" style="background:var(--off-white)">
+  <div class="container">
+
+    <div class="pipe-intro reveal">
+      <div class="icon">🏭</div>
+      <div>
+        <h3>Wholesale Stock — Always Ready</h3>
+        <p>Sabhi products hamare godown mein available hain. Bulk orders welcome. Call karein ya enquiry submit karein — best price guarantee.</p>
+      </div>
+      <a href="contact.html" class="btn btn-primary" style="flex-shrink:0;white-space:nowrap;">📋 Get Quote</a>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="metal">Metal</button>
+      <button class="filter-btn" data-filter="plastic">Plastic</button>
+      <button class="filter-btn" data-filter="special">Special</button>
+    </div>
+
+    <div class="products-all-grid">
+
+      <!-- GI PIPE -->
+      <div class="product-card reveal d1" data-category="metal">
+        <div class="product-img gi">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=190&fit=crop&auto=format&q=80" alt="GI Pipe" loading="lazy" onerror="this.style.display='none'"/>
+        </div>
+        <div class="product-body">
+          <h3>GI Pipes (Galvanized Iron)</h3>
+          <p>Galvanized iron pipes with zinc coating. Used for water supply, gas lines, fire-fighting and structural applications.</p>
+          <div class="product-specs">
+            <div class="spec-row"><strong>Sizes</strong> ½" to 6"</div>
+            <div class="spec-row"><strong>Grade</strong> Light/Medium/Heavy</div>
+            <div class="spec-row"><strong>Standard</strong> IS:1239</div>
+            <div class="spec-row"><strong>Cert.</strong> ISI Marked</div>
+          </div>
+          <div class="product-tags" style="margin-top:14px">
+            <span>Water Supply</span><span>Gas Lines</span><span>Structural</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MS PIPE -->
+      <div class="product-card reveal d2" data-category="metal">
+        <div class="product-img ms">
+          <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500&h=190&fit=crop&auto=format&q=80" alt="MS Pipe" loading="lazy" onerror="this.style.display='none'"/>
+        </div>
+        <div class="product-body">
+          <h3>MS Pipes (Mild Steel)</h3>
+          <p>Mild steel pipes for structural applications — fencing, scaffolding, industrial fabrication and support structures.</p>
+          <div class="product-specs">
+            <div class="spec-row"><strong>Type</strong> ERW / Seamless</div>
+            <div class="spec-row"><strong>Wall</strong> 1.6mm – 6mm</div>
+            <div class="spec-row"><strong>Standard</strong> IS:1161</div>
+            <div class="spec-row"><strong>Use</strong> Industrial</div>
+          </div>
+          <div class="product-tags" style="margin-top:14px">
+            <span>Fencing</span><span>Scaffolding</span><span>Fabrication</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PVC PIPE -->
+      <div class="product-card reveal d3" data-category="plastic">
+        <div class="product-img pvc">
+          <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=500&h=190&fit=crop&auto=format&q=80" alt="PVC Pipe" loading="lazy" onerror="this.style.display='none'"/>
+        </div>
+        <div class="product-body">
+          <h3>PVC Pipes</h3>
+          <p>Polyvinyl Chloride pipes for drainage, sewerage, agricultural irrigation, and cable ducting.</p>
+          <div class="product-specs">
+            <div class="spec-row"><strong>Sizes</strong> ½" to 12"</div>
+            <div class="spec-row"><strong>Pressure</strong> Class 2–6</div>
+            <div class="spec-row"><strong>Standard</strong> IS:4985</div>
+            <div class="spec-row"><strong>Color</strong> White/Grey</div>
+          </div>
+          <div class="product-tags" style="margin-top:14px">
+            <span>Drainage</span><span>Sewerage</span><span>Agriculture</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- HDPE PIPE -->
+      <div class="product-card reveal d4" data-category="plastic">
+        <div class="product-img hdpe">
+          <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=500&h=190&fit=crop&auto=format&q=80" alt="HDPE Pipe" loading="lazy" onerror="this.style.display='none'"/>
+        </div>
+        <div class="product-body">
+          <h3>HDPE Pipes</h3>
+          <p>High-Density Polyethylene pipes for pressurized water supply, irrigation, mining and gas distribution.</p>
+          <div class="product-specs">
+            <div class="spec-row"><strong>Sizes</strong> 20mm – 630mm</div>
+            <div class="spec-row"><strong>Rating</strong> PN 4 to PN 16</div>
+            <div class="spec-row"><strong>Standard</strong> IS:4984</div>
+            <div class="spec-row"><strong>Color</strong> Black/Blue</div>
+          </div>
+          <div class="product-tags" style="margin-top:14px">
+            <span>Irrigation</span><span>Water Supply</span><span>Mining</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- UPVC PIPE -->
+      <div class="product-card reveal d5" data-category="plastic">
+        <div class="product-img upvc">
+          <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=500&h=190&fit=crop&auto=format&q=80" alt="UPVC Pipe" loading="lazy" onerror="this.style.display='none'"/>
+        </div>
+        <div class="product-body">
+          <h3>UPVC Pipes</h3>
+          <p>Unplasticized PVC pipes for pressurized potable water supply in residential and commercial buildings.</p>
+          <div class="product-specs">
+            <div class="spec-row"><strong>Sizes</strong> 15mm – 200mm</div>
+            <div class="spec-row"><strong>Pressure</strong> Class 2–6</div>
+            <div class="spec-row"><strong>Standard</strong> IS:4985</div>
+            <div class="spec-row"><strong>Temp</strong> Up to 45°C</div>
+          </div>
+          <div class="product-tags" style="margin-top:14px">
+            <span>Cold Water</span><span>Buildings</span><span>Food Safe</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CPVC PIPE -->
+      <div class="product-card reveal d6" data-category="plastic">
+        <div class="product-img cpvc">
+          <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=500&h=190&fit=crop&auto=format&q=80" alt="CPVC Pipe" loading="lazy" onerror="this.style.display='none'"/>
+        </div>
+        <div class="product-body">
+          <h3>CPVC Pipes</h3>
+          <p>Chlorinated PVC pipes for hot and cold water plumbing systems. Handles temperatures up to 93°C.</p>
+          <div class="product-specs">
+            <div class="spec-row"><strong>Sizes</strong> ½" – 2"</div>
+            <div class="spec-row"><strong>SDR</strong> SDR-11</div>
+            <div class="spec-row"><strong>Standard</strong> ASTM D2846</div>
+            <div class="spec-row"><strong>Temp</strong> Up to 93°C</div>
+          </div>
+          <div class="product-tags" style="margin-top:14px">
+            <span>Hot Water</span><span>Plumbing</span><span>High Temp</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DUCT PIPE -->
+      <div class="product-card reveal d1" data-category="special">
+        <div class="product-img duct">
+          <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500&h=190&fit=crop&auto=format&q=80" alt="Duct Pipe" loading="lazy" onerror="this.style.display='none'"/>
+        </div>
+        <div class="product-body">
+          <h3>Duct Pipes</h3>
+          <p>Heavy-duty duct pipes for underground cable protection, telecom lines and electrical conduit systems.</p>
+          <div class="product-specs">
+            <div class="spec-row"><strong>Sizes</strong> 25mm – 200mm</div>
+            <div class="spec-row"><strong>Type</strong> Single/Double Wall</div>
+            <div class="spec-row"><strong>Color</strong> Orange/Black</div>
+            <div class="spec-row"><strong>Use</strong> Telecom/Power</div>
+          </div>
+          <div class="product-tags" style="margin-top:14px">
+            <span>Cable Duct</span><span>Telecom</span><span>Underground</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CASING PIPE -->
+      <div class="product-card reveal d2" data-category="special">
+        <div class="product-img casing">
+          <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=500&h=190&fit=crop&auto=format&q=80" alt="Casing Pipe" loading="lazy" onerror="this.style.display='none'"/>
+        </div>
+        <div class="product-body">
+          <h3>Casing Pipes (Borewell)</h3>
+          <p>MS / PVC casing pipes for borewell, tubewell and water well drilling applications across agriculture.</p>
+          <div class="product-specs">
+            <div class="spec-row"><strong>Sizes</strong> 4" – 12"</div>
+            <div class="spec-row"><strong>Material</strong> MS / PVC</div>
+            <div class="spec-row"><strong>Length</strong> 3m / 6m</div>
+            <div class="spec-row"><strong>Use</strong> Borewell</div>
+          </div>
+          <div class="product-tags" style="margin-top:14px">
+            <span>Borewell</span><span>Agriculture</span><span>Tubewell</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-inner">
+      <div class="cta-text reveal-left">
+        <h2>Need a Custom Quote?</h2>
+        <p>Apni pipe requirement batayein — quantity, size, type — hum best wholesale price denge.</p>
+      </div>
+      <div class="cta-actions reveal-right">
+        <a href="contact.html" class="btn-white-solid">📋 Send Enquiry</a>
+        <a href="tel:9956413300" class="btn-outline-white-solid">📞 9956413300</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-name">🔧 Manoj Rathour Pipe Traders</span>
+        <span class="logo-tagline">Wholesale Pipe Supplier — Sitapur</span>
+        <p>ISI marked pipes at wholesale prices. Trusted by 500+ clients across UP.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">🏠 Home</a></li>
+          <li><a href="about.html">🏭 About Us</a></li>
+          <li><a href="products.html">🔧 Products</a></li>
+          <li><a href="contact.html">📞 Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#">GI Pipes</a></li>
+          <li><a href="#">HDPE Pipes</a></li>
+          <li><a href="#">PVC Pipes</a></li>
+          <li><a href="#">MS Pipes</a></li>
+          <li><a href="#">UPVC / CPVC</a></li>
+          <li><a href="#">Duct & Casing</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-contact-list">
+          <li><span class="fi">📍</span><span>Munshiganj, Sitapur, UP</span></li>
+          <li><span class="fi">📞</span><span><a href="tel:9956413300">9956413300</a></span></li>
+          <li><span class="fi">💬</span><span><a href="https://wa.me/919956413300" target="_blank">WhatsApp</a></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Manoj Rathour Pipe Traders, Munshiganj, Sitapur.</p>
+      <p>Built for trust & quality 🔧</p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/919956413300" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<script src="script.js"></script>
+<script>
+  // Product filter
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('.products-all-grid .product-card');
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      cards.forEach(card => {
+        card.style.display = (filter === 'all' || card.dataset.category === filter) ? '' : 'none';
+      });
+    });
+  });
+</script>
+</body>
+</html>
