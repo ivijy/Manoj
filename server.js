@@ -19,7 +19,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Serve static frontend files from /public
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(__dirname));
 
 // ─────────────────────────────────────────────
 // MONGODB CONNECTION
@@ -171,7 +172,8 @@ app.get('/enquiries', async (req, res) => {
 // CATCH-ALL — Serve index.html for unknown routes
 // ─────────────────────────────────────────────
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+ // res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // ─────────────────────────────────────────────
