@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: manoj-rathour-pipe-traders
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false
+      - key: OWNER_EMAIL
+        sync: false
+      - key: FRONTEND_ORIGIN
+        sync: false
+      - key: BREVO_API_KEY
+        sync: false
+      - key: BREVO_SENDER_EMAIL
+        sync: false

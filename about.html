@@ -152,7 +152,15 @@
   <div class="container">
     <div style="display:grid;grid-template-columns:auto 1fr;gap:48px;align-items:center;flex-wrap:wrap;" class="reveal">
       <div style="text-align:center;flex-shrink:0;">
-        <div style="width:140px;height:140px;border-radius:50%;background:var(--blue);border:4px solid var(--orange);display:flex;align-items:center;justify-content:center;font-size:4rem;margin:0 auto 16px;">👤</div>
+        <div class="owner-photo-wrap">
+  <img
+    src="manoj-rathour-owner.jpeg"
+    alt="Manoj Rathour"
+    class="owner-photo"
+    loading="lazy"
+    onerror="this.style.display='none'; this.parentElement.classList.add('owner-photo-fallback')"
+  />
+</div>
         <h3 style="color:var(--white);font-size:1.3rem;">Manoj Rathour</h3>
         <p style="color:var(--orange);font-size:0.8rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;">Proprietor</p>
       </div>
@@ -238,3 +246,5 @@
 <script src="script.js"></script>
 </body>
 </html>
+
+
